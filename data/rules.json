@@ -1,0 +1,67 @@
+[
+    {
+        "conditions": [
+            {
+                "metric": "quiz_avg",
+                "condition": "is less than",
+                "value": 50
+            }
+        ],
+        "action": "Send email notification to Advisor"
+    },
+    {
+        "conditions": [
+            {
+                "metric": "quiz_avg",
+                "condition": "is less than",
+                "value": 70
+            }
+        ],
+        "action": "Create High-Priority Alert"
+    },
+    {
+        "conditions": [
+            {
+                "metric": "attendance_percentage",
+                "condition": "is less than",
+                "value": 70
+            }
+        ],
+        "action": "Send email notification to Advisor"
+    },
+    {
+        "conditions": [
+            {
+                "metric": "assignment_submissions",
+                "condition": "is less than",
+                "value": 5
+            }
+        ],
+        "action": "Send email notification to Advisor"
+    },
+    {
+        "conditions": [
+            {
+                "metric": "department",
+                "condition": "is",
+                "value": "IT"
+            },
+            {
+                "metric": "year_level",
+                "condition": "is",
+                "value": "3"
+            }
+        ],
+        "action": "Add student to watchlist"
+    },
+    {
+        "conditions": [
+            {
+                "metric": "quiz_avg",
+                "condition": "is less than",
+                "value": 50
+            }
+        ],
+        "action": "Send email notification to Advisor"
+    }
+]

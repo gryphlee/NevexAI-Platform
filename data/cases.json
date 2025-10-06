@@ -1,0 +1,426 @@
+[
+    {
+        "id": "1006_quiz_avg_is less than_50",
+        "student_id": 1006,
+        "status": "To Do",
+        "reason": "Rule: quiz_avg is less than 50",
+        "action_needed": "Send email notification to Advisor",
+        "intervention_type": "Behavioral Counseling",
+        "resolved_date": "2025-09-29"
+    },
+    {
+        "id": "1006_quiz_avg is less than 50",
+        "student_id": 1006,
+        "status": "Resolved",
+        "reason": "Rule: quiz_avg is less than 50",
+        "action_needed": "Send email notification to Advisor",
+        "intervention_type": "Behavioral Counseling",
+        "resolved_date": "2025-09-29"
+    },
+    {
+        "id": "1002_quiz_avg is less than 70",
+        "student_id": 1002,
+        "status": "In Progress",
+        "reason": "Rule: quiz_avg is less than 70",
+        "action_needed": "Create High-Priority Alert"
+    },
+    {
+        "id": "1005_quiz_avg is less than 70",
+        "student_id": 1005,
+        "status": "To Do",
+        "reason": "Rule: quiz_avg is less than 70",
+        "action_needed": "Create High-Priority Alert",
+        "intervention_type": "Behavioral Counseling",
+        "resolved_date": "2025-09-29"
+    },
+    {
+        "id": "1005_attendance_percentage is less than 70",
+        "student_id": 1005,
+        "status": "In Progress",
+        "reason": "Rule: attendance_percentage is less than 70",
+        "action_needed": "Send email notification to Advisor"
+    },
+    {
+        "id": "1006_quiz_avg is less than 70",
+        "student_id": 1006,
+        "status": "Resolved",
+        "reason": "Rule: quiz_avg is less than 70",
+        "action_needed": "Create High-Priority Alert",
+        "intervention_type": "Behavioral Counseling",
+        "resolved_date": "2025-09-29"
+    },
+    {
+        "id": "1006_attendance_percentage is less than 70",
+        "student_id": 1006,
+        "status": "Resolved",
+        "reason": "Rule: attendance_percentage is less than 70",
+        "action_needed": "Send email notification to Advisor",
+        "intervention_type": "Parent-Teacher Conference",
+        "resolved_date": "2025-09-29"
+    },
+    {
+        "id": "1006_assignment_submissions is less than 5",
+        "student_id": 1006,
+        "status": "Resolved",
+        "reason": "Rule: assignment_submissions is less than 5",
+        "action_needed": "Send email notification to Advisor",
+        "intervention_type": "1-on-1 Tutoring",
+        "resolved_date": "2025-09-29"
+    },
+    {
+        "id": "1011_quiz_avg is less than 70",
+        "student_id": 1011,
+        "status": "Resolved",
+        "reason": "Rule: quiz_avg is less than 70",
+        "action_needed": "Create High-Priority Alert",
+        "intervention_type": "Provided Extra Materials",
+        "resolved_date": "2025-09-29"
+    },
+    {
+        "id": "1013_quiz_avg is less than 70",
+        "student_id": 1013,
+        "status": "Resolved",
+        "reason": "Rule: quiz_avg is less than 70",
+        "action_needed": "Create High-Priority Alert",
+        "intervention_type": "Referred to Guidance Counselor",
+        "resolved_date": "2025-09-29"
+    },
+    {
+        "id": "1013_attendance_percentage is less than 70",
+        "student_id": 1013,
+        "status": "Resolved",
+        "reason": "Rule: attendance_percentage is less than 70",
+        "action_needed": "Send email notification to Advisor",
+        "intervention_type": "Provided Extra Materials",
+        "resolved_date": "2025-09-30"
+    },
+    {
+        "id": "1015_quiz_avg is less than 70",
+        "student_id": 1015,
+        "status": "To Do",
+        "reason": "Rule: quiz_avg is less than 70",
+        "action_needed": "Create High-Priority Alert"
+    },
+    {
+        "id": "1015_attendance_percentage is less than 70",
+        "student_id": 1015,
+        "status": "To Do",
+        "reason": "Rule: attendance_percentage is less than 70",
+        "action_needed": "Send email notification to Advisor"
+    },
+    {
+        "id": "2002_quiz_avg is less than 70",
+        "student_id": 2002,
+        "status": "To Do",
+        "reason": "Rule: quiz_avg is less than 70",
+        "action_needed": "Create High-Priority Alert"
+    },
+    {
+        "id": "2003_quiz_avg is less than 70",
+        "student_id": 2003,
+        "status": "To Do",
+        "reason": "Rule: quiz_avg is less than 70",
+        "action_needed": "Create High-Priority Alert"
+    },
+    {
+        "id": "2003_attendance_percentage is less than 70",
+        "student_id": 2003,
+        "status": "To Do",
+        "reason": "Rule: attendance_percentage is less than 70",
+        "action_needed": "Send email notification to Advisor"
+    },
+    {
+        "id": "2003_assignment_submissions is less than 5",
+        "student_id": 2003,
+        "status": "To Do",
+        "reason": "Rule: assignment_submissions is less than 5",
+        "action_needed": "Send email notification to Advisor"
+    },
+    {
+        "id": "2006_quiz_avg is less than 70",
+        "student_id": 2006,
+        "status": "To Do",
+        "reason": "Rule: quiz_avg is less than 70",
+        "action_needed": "Create High-Priority Alert"
+    },
+    {
+        "id": "2006_attendance_percentage is less than 70",
+        "student_id": 2006,
+        "status": "To Do",
+        "reason": "Rule: attendance_percentage is less than 70",
+        "action_needed": "Send email notification to Advisor"
+    },
+    {
+        "id": "2025001_quiz_avg is less than 70",
+        "student_id": 2025001,
+        "status": "To Do",
+        "reason": "Rule: quiz_avg is less than 70",
+        "action_needed": "Create High-Priority Alert"
+    },
+    {
+        "id": "2025001_attendance_percentage is less than 70",
+        "student_id": 2025001,
+        "status": "To Do",
+        "reason": "Rule: attendance_percentage is less than 70",
+        "action_needed": "Send email notification to Advisor"
+    },
+    {
+        "id": "2025001_assignment_submissions is less than 5",
+        "student_id": 2025001,
+        "status": "To Do",
+        "reason": "Rule: assignment_submissions is less than 5",
+        "action_needed": "Send email notification to Advisor"
+    },
+    {
+        "id": "2025004_quiz_avg is less than 70",
+        "student_id": 2025004,
+        "status": "To Do",
+        "reason": "Rule: quiz_avg is less than 70",
+        "action_needed": "Create High-Priority Alert"
+    },
+    {
+        "id": "2025006_quiz_avg is less than 50",
+        "student_id": 2025006,
+        "status": "To Do",
+        "reason": "Rule: quiz_avg is less than 50",
+        "action_needed": "Send email notification to Advisor"
+    },
+    {
+        "id": "2025006_quiz_avg is less than 70",
+        "student_id": 2025006,
+        "status": "To Do",
+        "reason": "Rule: quiz_avg is less than 70",
+        "action_needed": "Create High-Priority Alert"
+    },
+    {
+        "id": "2025006_attendance_percentage is less than 70",
+        "student_id": 2025006,
+        "status": "To Do",
+        "reason": "Rule: attendance_percentage is less than 70",
+        "action_needed": "Send email notification to Advisor"
+    },
+    {
+        "id": "2025006_assignment_submissions is less than 5",
+        "student_id": 2025006,
+        "status": "To Do",
+        "reason": "Rule: assignment_submissions is less than 5",
+        "action_needed": "Send email notification to Advisor"
+    },
+    {
+        "id": "2025009_quiz_avg is less than 70",
+        "student_id": 2025009,
+        "status": "To Do",
+        "reason": "Rule: quiz_avg is less than 70",
+        "action_needed": "Create High-Priority Alert"
+    },
+    {
+        "id": "2025011_quiz_avg is less than 70",
+        "student_id": 2025011,
+        "status": "To Do",
+        "reason": "Rule: quiz_avg is less than 70",
+        "action_needed": "Create High-Priority Alert"
+    },
+    {
+        "id": "2025011_assignment_submissions is less than 5",
+        "student_id": 2025011,
+        "status": "To Do",
+        "reason": "Rule: assignment_submissions is less than 5",
+        "action_needed": "Send email notification to Advisor"
+    },
+    {
+        "id": "2025014_quiz_avg is less than 70",
+        "student_id": 2025014,
+        "status": "To Do",
+        "reason": "Rule: quiz_avg is less than 70",
+        "action_needed": "Create High-Priority Alert"
+    },
+    {
+        "id": "2025016_quiz_avg is less than 70",
+        "student_id": 2025016,
+        "status": "To Do",
+        "reason": "Rule: quiz_avg is less than 70",
+        "action_needed": "Create High-Priority Alert"
+    },
+    {
+        "id": "2025016_attendance_percentage is less than 70",
+        "student_id": 2025016,
+        "status": "To Do",
+        "reason": "Rule: attendance_percentage is less than 70",
+        "action_needed": "Send email notification to Advisor"
+    },
+    {
+        "id": "2025016_assignment_submissions is less than 5",
+        "student_id": 2025016,
+        "status": "To Do",
+        "reason": "Rule: assignment_submissions is less than 5",
+        "action_needed": "Send email notification to Advisor"
+    },
+    {
+        "id": "2025019_quiz_avg is less than 70",
+        "student_id": 2025019,
+        "status": "To Do",
+        "reason": "Rule: quiz_avg is less than 70",
+        "action_needed": "Create High-Priority Alert"
+    },
+    {
+        "id": "2025021_quiz_avg is less than 70",
+        "student_id": 2025021,
+        "status": "To Do",
+        "reason": "Rule: quiz_avg is less than 70",
+        "action_needed": "Create High-Priority Alert"
+    },
+    {
+        "id": "2025021_attendance_percentage is less than 70",
+        "student_id": 2025021,
+        "status": "To Do",
+        "reason": "Rule: attendance_percentage is less than 70",
+        "action_needed": "Send email notification to Advisor"
+    },
+    {
+        "id": "2025021_assignment_submissions is less than 5",
+        "student_id": 2025021,
+        "status": "To Do",
+        "reason": "Rule: assignment_submissions is less than 5",
+        "action_needed": "Send email notification to Advisor"
+    },
+    {
+        "id": "2025024_quiz_avg is less than 70",
+        "student_id": 2025024,
+        "status": "To Do",
+        "reason": "Rule: quiz_avg is less than 70",
+        "action_needed": "Create High-Priority Alert"
+    },
+    {
+        "id": "2025026_quiz_avg is less than 70",
+        "student_id": 2025026,
+        "status": "To Do",
+        "reason": "Rule: quiz_avg is less than 70",
+        "action_needed": "Create High-Priority Alert"
+    },
+    {
+        "id": "2025026_attendance_percentage is less than 70",
+        "student_id": 2025026,
+        "status": "To Do",
+        "reason": "Rule: attendance_percentage is less than 70",
+        "action_needed": "Send email notification to Advisor"
+    },
+    {
+        "id": "2025029_quiz_avg is less than 70",
+        "student_id": 2025029,
+        "status": "To Do",
+        "reason": "Rule: quiz_avg is less than 70",
+        "action_needed": "Create High-Priority Alert"
+    },
+    {
+        "id": "2025031_quiz_avg is less than 70",
+        "student_id": 2025031,
+        "status": "To Do",
+        "reason": "Rule: quiz_avg is less than 70",
+        "action_needed": "Create High-Priority Alert"
+    },
+    {
+        "id": "2025031_attendance_percentage is less than 70",
+        "student_id": 2025031,
+        "status": "To Do",
+        "reason": "Rule: attendance_percentage is less than 70",
+        "action_needed": "Send email notification to Advisor"
+    },
+    {
+        "id": "2025031_assignment_submissions is less than 5",
+        "student_id": 2025031,
+        "status": "To Do",
+        "reason": "Rule: assignment_submissions is less than 5",
+        "action_needed": "Send email notification to Advisor"
+    },
+    {
+        "id": "2025034_quiz_avg is less than 70",
+        "student_id": 2025034,
+        "status": "To Do",
+        "reason": "Rule: quiz_avg is less than 70",
+        "action_needed": "Create High-Priority Alert"
+    },
+    {
+        "id": "2025036_quiz_avg is less than 70",
+        "student_id": 2025036,
+        "status": "To Do",
+        "reason": "Rule: quiz_avg is less than 70",
+        "action_needed": "Create High-Priority Alert"
+    },
+    {
+        "id": "2025036_attendance_percentage is less than 70",
+        "student_id": 2025036,
+        "status": "To Do",
+        "reason": "Rule: attendance_percentage is less than 70",
+        "action_needed": "Send email notification to Advisor"
+    },
+    {
+        "id": "2025036_assignment_submissions is less than 5",
+        "student_id": 2025036,
+        "status": "To Do",
+        "reason": "Rule: assignment_submissions is less than 5",
+        "action_needed": "Send email notification to Advisor"
+    },
+    {
+        "id": "2025039_quiz_avg is less than 70",
+        "student_id": 2025039,
+        "status": "To Do",
+        "reason": "Rule: quiz_avg is less than 70",
+        "action_needed": "Create High-Priority Alert"
+    },
+    {
+        "id": "2025041_quiz_avg is less than 70",
+        "student_id": 2025041,
+        "status": "To Do",
+        "reason": "Rule: quiz_avg is less than 70",
+        "action_needed": "Create High-Priority Alert"
+    },
+    {
+        "id": "2025041_attendance_percentage is less than 70",
+        "student_id": 2025041,
+        "status": "To Do",
+        "reason": "Rule: attendance_percentage is less than 70",
+        "action_needed": "Send email notification to Advisor"
+    },
+    {
+        "id": "2025041_assignment_submissions is less than 5",
+        "student_id": 2025041,
+        "status": "To Do",
+        "reason": "Rule: assignment_submissions is less than 5",
+        "action_needed": "Send email notification to Advisor"
+    },
+    {
+        "id": "2025044_quiz_avg is less than 70",
+        "student_id": 2025044,
+        "status": "To Do",
+        "reason": "Rule: quiz_avg is less than 70",
+        "action_needed": "Create High-Priority Alert"
+    },
+    {
+        "id": "2025046_quiz_avg is less than 70",
+        "student_id": 2025046,
+        "status": "To Do",
+        "reason": "Rule: quiz_avg is less than 70",
+        "action_needed": "Create High-Priority Alert"
+    },
+    {
+        "id": "2025046_attendance_percentage is less than 70",
+        "student_id": 2025046,
+        "status": "To Do",
+        "reason": "Rule: attendance_percentage is less than 70",
+        "action_needed": "Send email notification to Advisor"
+    },
+    {
+        "id": "2025046_assignment_submissions is less than 5",
+        "student_id": 2025046,
+        "status": "To Do",
+        "reason": "Rule: assignment_submissions is less than 5",
+        "action_needed": "Send email notification to Advisor"
+    },
+    {
+        "id": "2025049_quiz_avg is less than 70",
+        "student_id": 2025049,
+        "status": "In Progress",
+        "reason": "Rule: quiz_avg is less than 70",
+        "action_needed": "Create High-Priority Alert"
+    }
+]

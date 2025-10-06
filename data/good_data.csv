@@ -1,0 +1,6 @@
+student_id,quiz_avg,assignment_submissions,attendance_percentage,lms_hours,at_risk_status,department,year_level,parent_username
+1011,88,8,92,35,Not At-Risk,IT,1,
+1012,76,7,85,28,Not At-Risk,Business,2,
+1013,68,5,78,19,At-Risk,Engineering,3,parent_maria
+1014,95,10,99,45,Not At-Risk,IT,4,
+1015,55,4,65,12,At-Risk,Arts & Sciences,1,

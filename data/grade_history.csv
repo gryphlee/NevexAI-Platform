@@ -1,0 +1,13 @@
+student_id,assessment_id,grade
+2025001,Quiz1,75
+2025001,Quiz2,78
+2025001,Quiz3,72
+2025001,FinalExam,76
+2025002,Quiz1,68
+2025002,Quiz2,71
+2025002,Quiz3,65
+2025002,FinalExam,100
+2025003,Quiz1,88
+2025003,Quiz2,92
+2025003,Quiz3,85
+2025003,FinalExam,90

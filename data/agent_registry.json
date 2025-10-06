@@ -1,0 +1,61 @@
+{
+    "agents": [
+        {
+            "id": "agent_001",
+            "type": "DataAnalyst",
+            "specialization": "General",
+            "status": "active",
+            "cases_handled": 2,
+            "successes": 2,
+            "reputation": 540
+        },
+        {
+            "id": "agent_002",
+            "type": "ResourceAgent",
+            "specialization": "General",
+            "status": "active",
+            "cases_handled": 3,
+            "successes": 3,
+            "reputation": 560
+        },
+        {
+            "id": "agent_003",
+            "type": "CommunicationAgent",
+            "specialization": "Email",
+            "status": "active",
+            "cases_handled": 3,
+            "successes": 2,
+            "reputation": 525
+        }
+    ],
+    "system_log": [
+        {
+            "timestamp": "2025-10-04 05:50:00",
+            "event": "System Initialized. Spawned 3 Gen-1 agents."
+        },
+        {
+            "timestamp": "2025-10-04 05:49:46",
+            "event": "Running diagnostic test."
+        },
+        {
+            "timestamp": "2025-10-04 05:51:29",
+            "event": "Task Force ['agent_002', 'agent_001', 'agent_003'] assembled for Event evt_001."
+        },
+        {
+            "timestamp": "2025-10-04 05:53:57",
+            "event": "Task Force ['agent_002', 'agent_001', 'agent_003'] assembled for Event evt_001."
+        },
+        {
+            "timestamp": "2025-10-04 05:55:57",
+            "event": "Task Force ['agent_002', 'agent_001', 'agent_003'] assembled for Event evt_001."
+        },
+        {
+            "timestamp": "2025-10-04 07:08:15",
+            "event": "Plan for event 'evt_a8a05002' (Student: 2025001) was APPROVED by admin."
+        },
+        {
+            "timestamp": "2025-10-04 07:15:59",
+            "event": "Plan for event 'evt_eaf5fc44' (Student: 2025004) was APPROVED by admin."
+        }
+    ]
+}

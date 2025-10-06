@@ -1,0 +1,4 @@
+student_id,student_name,attendance,quiz1,quiz2,midterm,project,final
+S001,Juan Dela Cruz,0.95,18,17,72,85,88
+S002,Maria Santos,0.80,15,16,68,70,75
+S003,Jose Rizal,0.60,10,12,55,60,58

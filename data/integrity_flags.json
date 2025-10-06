@@ -1,0 +1,14 @@
+{
+    "2025002": [
+        {
+            "quiz_id": "Q101",
+            "reason": "Completed a 3-question quiz in 25s. (Threshold: 30s)",
+            "type": "Behavioral Anomaly"
+        },
+        {
+            "assessment_id": "FinalExam",
+            "reason": "Scored 100 on FinalExam, a major outlier compared to their quiz average of 68.0.",
+            "type": "Performance Anomaly"
+        }
+    ]
+}

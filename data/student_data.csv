@@ -1,0 +1,51 @@
+student_id,quiz_avg,assignment_submissions,attendance_percentage,lms_hours,at_risk_status,department,year_level,parent_username
+2025001,55,4,65,12,At-Risk,IT,1st Year,parent_of_2025001
+2025002,92,9,98,45,Not At-Risk,Business,2nd Year,parent_of_2025002
+2025003,78,8,92,31,Not At-Risk,Engineering,3rd Year,
+2025004,62,5,75,18,At-Risk,Arts & Sciences,1st Year,parent_of_2025004
+2025005,85,9,95,38,Not At-Risk,IT,4th Year,
+2025006,48,3,58,9,At-Risk,Business,1st Year,parent_of_2025006
+2025007,95,10,100,52,Not At-Risk,Engineering,2nd Year,
+2025008,71,7,88,25,Not At-Risk,IT,3rd Year,
+2025009,68,6,81,22,At-Risk,Arts & Sciences,2nd Year,
+2025010,88,9,96,41,Not At-Risk,Business,4th Year,
+2025011,59,4,70,14,At-Risk,IT,1st Year,parent_of_2025011
+2025012,91,10,97,48,Not At-Risk,Engineering,3rd Year,
+2025013,75,8,90,29,Not At-Risk,Business,2nd Year,
+2025014,65,6,78,19,At-Risk,IT,1st Year,
+2025015,82,8,94,35,Not At-Risk,Arts & Sciences,4th Year,
+2025016,52,4,62,11,At-Risk,Engineering,1st Year,parent_of_2025016
+2025017,98,10,100,55,Not At-Risk,IT,2nd Year,
+2025018,76,7,91,30,Not At-Risk,Business,3rd Year,
+2025019,61,5,72,16,At-Risk,Arts & Sciences,2nd Year,
+2025020,89,9,99,43,Not At-Risk,Engineering,4th Year,
+2025021,50,3,60,8,At-Risk,IT,1st Year,parent_of_2025021
+2025022,93,9,98,47,Not At-Risk,Business,2nd Year,
+2025023,80,8,93,33,Not At-Risk,IT,3rd Year,
+2025024,66,6,80,21,At-Risk,Engineering,1st Year,
+2025025,87,9,95,39,Not At-Risk,Arts & Sciences,4th Year,
+2025026,58,5,68,13,At-Risk,Business,2nd Year,
+2025027,90,10,96,46,Not At-Risk,IT,3rd Year,
+2025028,73,7,89,27,Not At-Risk,Engineering,2nd Year,
+2025029,63,5,76,17,At-Risk,Business,1st Year,
+2025030,84,8,92,36,Not At-Risk,Arts & Sciences,3rd Year,
+2025031,56,4,66,13,At-Risk,IT,4th Year,parent_of_2025031
+2025032,96,10,99,50,Not At-Risk,Business,1st Year,
+2025033,79,8,94,32,Not At-Risk,Engineering,2nd Year,
+2025034,69,7,82,23,At-Risk,IT,3rd Year,
+2025035,81,8,90,34,Not At-Risk,Arts & Sciences,1st Year,
+2025036,54,4,64,10,At-Risk,Business,2nd Year,
+2025037,94,9,97,49,Not At-Risk,Engineering,3rd Year,
+2025038,72,7,87,28,Not At-Risk,IT,4th Year,
+2025039,60,5,71,15,At-Risk,Arts & Sciences,2nd Year,
+2025040,86,9,94,40,Not At-Risk,Business,1st Year,
+2025041,53,4,63,11,At-Risk,IT,2nd Year,
+2025042,97,10,100,53,Not At-Risk,Engineering,4th Year,parent_of_2025042
+2025043,77,8,91,31,Not At-Risk,Business,3rd Year,
+2025044,64,6,77,20,At-Risk,IT,1st Year,
+2025045,83,9,93,37,Not At-Risk,Arts & Sciences,2nd Year,
+2025046,51,3,61,9,At-Risk,Engineering,3rd Year,
+2025047,99,10,100,58,Not At-Risk,IT,4th Year,
+2025048,70,7,85,26,Not At-Risk,Business,1st Year,
+2025049,67,6,80,22,At-Risk,Arts & Sciences,3rd Year,parent_of_2025049
+2025050,88,9,96,42,Not At-Risk,Engineering,2nd Year,
