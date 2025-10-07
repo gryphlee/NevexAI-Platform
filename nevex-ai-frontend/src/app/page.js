@@ -48,8 +48,11 @@ export default function Home() {
       if (response.ok) {
         const data = await response.json();
         
-        // On success, we get an access token. Let's save it.
+        // On success, we get an access token. Save to localStorage and cookie (fallback across tabs/origins).
         localStorage.setItem('accessToken', data.access_token);
+        try {
+          document.cookie = `accessToken=${encodeURIComponent(data.access_token)}; path=/; max-age=2592000`;
+        } catch {}
         
         // Close the modal
         setIsModalOpen(false);
