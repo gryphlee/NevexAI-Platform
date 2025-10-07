@@ -1,22 +1,27 @@
 "use client";
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useId } from 'react';
 
 // A reusable slider component
-const LabeledSlider = ({ label, min, max, value, onChange, disabled = false }) => (
-    <div>
-        <label className={`block text-sm mb-2 ${disabled ? 'text-gray-600' : 'text-gray-400'}`}>{label}: <span className="font-bold text-white">{value}</span></label>
-        <input 
-            type="range" 
-            min={min} 
-            max={max} 
-            value={value} 
-            onChange={onChange}
-            disabled={disabled}
-            className="w-full h-2 bg-gray-700 rounded-lg appearance-none cursor-pointer disabled:bg-gray-800"
-        />
-    </div>
-);
+const LabeledSlider = ({ label, min, max, value, onChange, disabled = false }) => {
+    const id = useId();
+    return (
+        <div>
+            <label htmlFor={id} className={`block text-sm mb-2 ${disabled ? 'text-gray-600' : 'text-gray-400'}`}>{label}: <span className="font-bold text-white">{value}</span></label>
+            <input
+                id={id}
+                name={id}
+                type="range"
+                min={min}
+                max={max}
+                value={value}
+                onChange={onChange}
+                disabled={disabled}
+                className="w-full h-2 bg-gray-700 rounded-lg appearance-none cursor-pointer disabled:bg-gray-800"
+            />
+        </div>
+    );
+};
 
 // A reusable metric display component
 const ResultMetric = ({ label, value, delta, isAtRisk }) => (

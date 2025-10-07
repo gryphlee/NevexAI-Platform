@@ -89,6 +89,8 @@ class LinkParentRequest(BaseModel):
     student_id: int
     parent_username: str
 
+ 
+
 # --- Helper Functions ---
 def verify_password(plain_password, hashed_password_str):
     if isinstance(hashed_password_str, str):
@@ -256,6 +258,8 @@ async def get_metrics():
 async def save_metrics(metrics: List[Metric]): save_json(METRICS_FILE, [metric.model_dump() for metric in metrics]); return {"message": "Metrics saved successfully."}
 @app.get("/api/dashboard-stats")
 async def get_dashboard_stats(): return { "successRate": 73, "interventionSpeed": 2.1, "agentSuccessRate": 87, "agentPerformance": { "activeAgents": "20+", "specializations": { "math": 87, "empathy": 81, "data": 79, "resource": 85 } }, "detectionVsManual": "6x", "multiAgentDebates": 143 }
+
+ 
 
 
 

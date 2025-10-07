@@ -118,10 +118,12 @@ export default function CsvUploader() {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-4 mb-6">
                         {Object.entries(REQUIRED_COLUMNS).map(([reqCol, reqDesc]) => (
                             <div key={reqCol}>
-                                <label className="block text-sm font-bold text-gray-300">{reqDesc}</label>
+                                <label className="block text-sm font-bold text-gray-300" htmlFor={`map-${reqCol}`}>{reqDesc}</label>
                                 <p className="text-xs text-gray-500 mb-2">System needs: <span className="font-mono">{reqCol}</span></p>
-                                <select 
-                                    value={mapping[reqCol] || ''} 
+                                <select
+                                    id={`map-${reqCol}`}
+                                    name={`map-${reqCol}`}
+                                    value={mapping[reqCol] || ''}
                                     onChange={(e) => handleMappingChange(reqCol, e.target.value)}
                                     className="w-full bg-gray-800 rounded p-2 border border-gray-700 focus:outline-none focus:border-green-500"
                                 >
