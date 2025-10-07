@@ -89,6 +89,17 @@ class LinkParentRequest(BaseModel):
     student_id: int
     parent_username: str
 
+# --- Prediction Models ---
+class PredictionInput(BaseModel):
+    quiz_avg: float
+    assignment_submissions: float
+    attendance_percentage: float
+    lms_hours: float
+
+class PredictionResult(BaseModel):
+    risk_status: str
+    success_probability: int
+
 # --- Helper Functions ---
 def verify_password(plain_password, hashed_password_str):
     if isinstance(hashed_password_str, str):
@@ -256,6 +267,30 @@ async def get_metrics():
 async def save_metrics(metrics: List[Metric]): save_json(METRICS_FILE, [metric.model_dump() for metric in metrics]); return {"message": "Metrics saved successfully."}
 @app.get("/api/dashboard-stats")
 async def get_dashboard_stats(): return { "successRate": 73, "interventionSpeed": 2.1, "agentSuccessRate": 87, "agentPerformance": { "activeAgents": "20+", "specializations": { "math": 87, "empathy": 81, "data": 79, "resource": 85 } }, "detectionVsManual": "6x", "multiAgentDebates": 143 }
+
+@app.post("/api/predict", response_model=PredictionResult)
+async def predict_risk(input: PredictionInput):
+    try:
+        # Normalize bounded features to 0..100
+        quiz = max(0.0, min(100.0, float(input.quiz_avg)))
+        attendance = max(0.0, min(100.0, float(input.attendance_percentage)))
+        assignments_norm = max(0.0, min(10.0, float(input.assignment_submissions))) / 10.0 * 100.0  # assume 0..10
+        lms_norm = max(0.0, min(50.0, float(input.lms_hours))) / 50.0 * 100.0  # assume 0..50
+
+        # Simple weighted aggregation (weights sum to 1.0)
+        success_score = (
+            0.5 * quiz +
+            0.3 * attendance +
+            0.1 * assignments_norm +
+            0.1 * lms_norm
+        )
+
+        success_probability = int(round(max(0.0, min(100.0, success_score))))
+        risk_status = "AT-RISK" if success_probability < 60 else "NOT AT-RISK"
+
+        return {"risk_status": risk_status, "success_probability": success_probability}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Prediction failed: {e}")
 
 
 
