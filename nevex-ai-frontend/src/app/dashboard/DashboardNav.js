@@ -7,6 +7,8 @@ const navLinks = [
     { name: 'Overview', href: '/dashboard' },
     { name: 'Analytics Hub', href: '/dashboard/analytics' },
     { name: 'Risk Predictor', href: '/dashboard/predictor' }, // <-- ADD THIS
+    { name: 'Integrity Dashboard', href: '/dashboard/integrity' },
+    { name: 'Model Performance', href: '/dashboard/model-performance' },
     { name: 'Resource Manager', href: '/dashboard/resources' },
     { name: 'User Management', href: '/dashboard/users' },
     { name: 'Database Admin', href: '/dashboard/database' },
