@@ -312,8 +312,10 @@ export default function Home() {
           <div className="login-modal">
             <h2>Platform Login</h2>
             <form onSubmit={handleLoginSubmit}>
-              <input type="text" name="username" placeholder="Username" required />
-              <input type="password" name="password" placeholder="Password" required />
+              <label htmlFor="login-username">Username</label>
+              <input id="login-username" type="text" name="username" autoComplete="username" placeholder="Username" required />
+              <label htmlFor="login-password">Password</label>
+              <input id="login-password" type="password" name="password" autoComplete="current-password" placeholder="Password" required />
               <button type="submit">Log In</button>
             </form>
             {error && <p className="error-message" style={{ display: 'block' }}>{error}</p>}

@@ -95,25 +95,37 @@ export default function ResourcesPage() {
 
               {resources.map((res, index) => (
                 <div key={index} className="grid grid-cols-1 md:grid-cols-4 gap-3 bg-gray-800/40 p-4 rounded-lg border border-gray-700">
+                  <label htmlFor={`res-title-${index}`} className="sr-only">Title</label>
                   <input
+                    id={`res-title-${index}`}
+                    name={`res-title-${index}`}
                     className="bg-gray-800 border border-gray-700 rounded px-3 py-2 text-gray-200 placeholder-gray-500 focus:outline-none focus:border-cyan-500"
                     placeholder="Title"
                     value={res.title}
                     onChange={(e) => handleChange(index, "title", e.target.value)}
                   />
+                  <label htmlFor={`res-link-${index}`} className="sr-only">Link</label>
                   <input
+                    id={`res-link-${index}`}
+                    name={`res-link-${index}`}
                     className="bg-gray-800 border border-gray-700 rounded px-3 py-2 text-gray-200 placeholder-gray-500 focus:outline-none focus:border-cyan-500"
                     placeholder="Link"
                     value={res.link}
                     onChange={(e) => handleChange(index, "link", e.target.value)}
                   />
+                  <label htmlFor={`res-type-${index}`} className="sr-only">Type</label>
                   <input
+                    id={`res-type-${index}`}
+                    name={`res-type-${index}`}
                     className="bg-gray-800 border border-gray-700 rounded px-3 py-2 text-gray-200 placeholder-gray-500 focus:outline-none focus:border-cyan-500"
                     placeholder="Type (e.g., video, doc)"
                     value={res.type}
                     onChange={(e) => handleChange(index, "type", e.target.value)}
                   />
+                  <label htmlFor={`res-tags-${index}`} className="sr-only">Tags</label>
                   <input
+                    id={`res-tags-${index}`}
+                    name={`res-tags-${index}`}
                     className="bg-gray-800 border border-gray-700 rounded px-3 py-2 text-gray-200 placeholder-gray-500 focus:outline-none focus:border-cyan-500"
                     placeholder="Tags (comma-separated)"
                     value={res.tags?.join(", ") || ""}
