@@ -28,26 +28,17 @@ export default function DashboardLayout({ children }) {
     const [user, setUser] = useState(null);
 
     useEffect(() => {
-        const ensureAuth = () => {
-            let token = null;
-            try { token = localStorage.getItem('accessToken'); } catch {}
-            if (!token && typeof document !== 'undefined') {
-                const cookie = document.cookie.split('; ').find(c => c.startsWith('accessToken='));
-                if (cookie) token = decodeURIComponent(cookie.split('=')[1]);
-            }
-            if (!token) {
-                router.push('/');
-                return;
-            }
-            const [username] = token.split(':');
-            setUser({ username });
-        };
-        ensureAuth();
+        const token = localStorage.getItem('accessToken');
+        if (!token) {
+            router.push('/');
+            return;
+        }
+        const [username] = token.split(':');
+        setUser({ username });
     }, [router]);
 
     const handleLogout = () => {
-        try { localStorage.removeItem('accessToken'); } catch {}
-        try { document.cookie = 'accessToken=; path=/; max-age=0'; } catch {}
+        localStorage.removeItem('accessToken');
         router.push('/');
     };
 

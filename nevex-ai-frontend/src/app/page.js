@@ -48,11 +48,8 @@ export default function Home() {
       if (response.ok) {
         const data = await response.json();
         
-        // On success, we get an access token. Save to localStorage and cookie (fallback across tabs/origins).
+        // On success, we get an access token. Let's save it.
         localStorage.setItem('accessToken', data.access_token);
-        try {
-          document.cookie = `accessToken=${encodeURIComponent(data.access_token)}; path=/; max-age=2592000`;
-        } catch {}
         
         // Close the modal
         setIsModalOpen(false);
@@ -312,10 +309,8 @@ export default function Home() {
           <div className="login-modal">
             <h2>Platform Login</h2>
             <form onSubmit={handleLoginSubmit}>
-              <label htmlFor="login-username">Username</label>
-              <input id="login-username" type="text" name="username" autoComplete="username" placeholder="Username" required />
-              <label htmlFor="login-password">Password</label>
-              <input id="login-password" type="password" name="password" autoComplete="current-password" placeholder="Password" required />
+              <input type="text" name="username" placeholder="Username" required />
+              <input type="password" name="password" placeholder="Password" required />
               <button type="submit">Log In</button>
             </form>
             {error && <p className="error-message" style={{ display: 'block' }}>{error}</p>}
